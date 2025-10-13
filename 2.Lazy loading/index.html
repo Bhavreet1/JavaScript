@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy Loading</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 2rem;
+        background: #000;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      img{
+        height: 80vh;
+        margin-top: 20rem;
+        opacity: 0;
+      }
+      .loaded{
+        opacity: 1;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Lazy Loading and Image Observer</h1>
+    <br>
+    <img data-src="https://images.unsplash.com/photo-1749953680414-62d2afc6c29c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=3072" alt="image">
+    <br>
+    <br>
+    <br>
+    <br>
+    <img data-src="https://images.unsplash.com/photo-1703756883225-f923fc92568e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1632" alt="image">
+    <br>
+    <br>
+    <br>
+    <br>
+    <img data-src="https://images.unsplash.com/photo-1588294964775-5a362b9a55d2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1632" alt="image">
+    <br>
+    <br>
+    <br>
+    <br>
+    <img data-src="https://plus.unsplash.com/premium_photo-1759820276583-444c3e501179?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1632" alt="image">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+  </body>
+  <script src="app.js"></script>
+</html>
