@@ -13,7 +13,6 @@ document.getElementById("inp").addEventListener("input", debounce(function (e) {
 }, 1000));
 
 // throttling
-
 function throttle(func,delay) {
     let last = 0;
     return function (...args) {

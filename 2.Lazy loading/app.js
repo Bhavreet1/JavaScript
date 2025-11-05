@@ -2,7 +2,7 @@ const imgs = document.querySelectorAll("img");
 
 // Intersection Observer API
 // Use an options object (root, rootMargin, threshold)
-const observerOptions = { threshold: 0.5 };
+const observerOptions = { root:null,threshold: 0.1 };
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
